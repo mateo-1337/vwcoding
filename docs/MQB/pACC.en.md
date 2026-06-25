@@ -96,8 +96,10 @@ ASAM version: H01
 VW/Audi part number: 2Q0907572R  
 ASAM part number: 2Q0907572B  
 ```
-
-
+**PQ26**
+On the 5Q0 Radar (and others) it may be possible to activate the SWaP without entering the CP alltogether saving a lot of money now as it is very inaccesible to use CP on the online services. 
+the 013 was updated from 0200 to 0312X, SWaP was generated for the necessary functions and then upgraded the next closest firmware above. VCTool has them all in their firmware repository. The VCRN does not change at all but dont be alarmed as it should still calculate the correct SWaP for the radar.
+Going from 0312X back to 0200 resulted to the SWaP's being disabled. I believe it depends on the functions the firmware has so go higher in the SW nr. after the SWaP method.  If you are using VCTool i suggest you use the FEC/SWaP function in the main menu. Very straight forward and lets you see the VCRN and send the new SWaP key to the ECU. 
 ### Changing the firmware on the radar without changing the SWaP code
 
 1. Make a backup of current encodings and adaptations
